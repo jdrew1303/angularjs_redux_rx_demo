@@ -1,0 +1,8 @@
+// The path for our ionicons font files
+$ionicons-font-path: "../assets/fonts";
+
+// include all of Ionic
+@import "../../node_modules/ionic-sdk/scss/ionic";
+
+@import "../../node_modules/ionic-filter-bar/scss/ionic.filter.bar";
+@import "../../node_modules/ionic-content-banner/scss/ionic.content.banner";

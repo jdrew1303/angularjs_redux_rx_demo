@@ -1,0 +1,43 @@
+{
+  "name": "angularjs-redux-rxjs",
+  "version": "1.0.0",
+  "description": "a demo using angularjs 1.x, redux and rx-observable",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "angular": "1.8.0",
+    "angular-animate": "1.8.0",
+    "angular-sanitize": "1.8.0",
+    "ionic-content-banner": "djett41/ionic-content-banner.git",
+    "ionic-filter-bar": "djett41/ionic-filter-bar",
+    "ionic-sdk": "1.2.4",
+    "ng-redux": "4.4.1",
+    "redux": "4.0.5",
+    "redux-observable": "1.2.0",
+    "rxjs": "6.6.3",
+    "sass": "1.26.11"
+  },
+  "devDependencies": {
+    "babel-jest": "26.3.0",
+    "@babel/core": "7.11.6",
+    "@babel/preset-env": "7.11.5",
+    "jest-cli": "26.4.2",
+    "jest-transform-stub": "2.0.0",
+    "angular-mocks": "1.8.0",
+    "parcel-bundler": "1.12.4",
+    "redux-devtools-extension": "2.13.8"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "jest": {
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "keywords": []
+}
